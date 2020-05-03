@@ -1,0 +1,8 @@
+server:
+  port: 8010
+
+
+# 公众号基本配置Token
+TOKEN: PPFGR982JJKE1
+# 公众号基本配置EncodingAESKey
+ENCODINGAESKEY: qmv3skFsMqlE2dTU1LTSsMMty12T4BFxNcu8IYV3BHn
