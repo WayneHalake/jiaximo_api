@@ -42,6 +42,7 @@ public class ChannelWxFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         log.info("doFilter...");
+
         String signature = servletRequest.getParameter("signature");
         if(StringUtils.isEmpty(signature)){
             return;
