@@ -2,7 +2,14 @@ server:
   port: 8010
 
 
-# 公众号基本配置Token
-TOKEN: PPFGR982JJKE1
-# 公众号基本配置EncodingAESKey
-ENCODINGAESKEY: qmv3skFsMqlE2dTU1LTSsMMty12T4BFxNcu8IYV3BHn
+# 寰俊鍏紬鍙稵oken
+WX:
+  TOKEN: PPFGR982JJKE1
+# 寰俊鍏紬鍙稥ncodingAESKey
+  ENCODINGAESKEY: qmv3skFsMqlE2dTU1LTSsMMty12T4BFxNcu8IYV3BHn
+
+# 娣樺疂鑱旂洘 APPKEY APPSECRET
+TAOBAOLM:
+  APPKEY: 29482829
+  APPSECRET: 6131111a06246657fe676e855f341b69
+  URL: http://gw.api.taobao.com/router/rest
